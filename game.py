@@ -227,7 +227,7 @@ class Game:
         self.score += 10
 
         # Fixed power pellet bug: maze uses lowercase "o"
-        if MAZE[cell[0]][cell[1]] == "o":
+        if MAZE[cell[0]][cell[1]] == "O":
             self.score += 40
             self.fright_left = FRIGHT_SECONDS
 
